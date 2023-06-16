@@ -81,3 +81,52 @@ a{
     width: 200px; 
     transition: 0.2s ease;
 }
+
+
+
+@media (max-width:500px) {
+   
+
+   .m{
+    /* background-color: yellow; */
+    height:300px ;
+    width: 300px;
+    gap : 60px;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 100px 100px;
+    margin-top: 40px;
+ 
+   }
+   
+
+   .im{
+    margin-top: 10px;
+height:40px ;
+width:90px ;
+border-radius: 7px;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.i{
+    margin-top: 40px;
+    background-color: rgb(222, 81, 193);
+    height: 100px; 
+    width: 110px; 
+    border-radius: 6%; 
+    box-shadow: 10px 10px 10px rgb(138, 94, 197);
+    font-size: x-large;
+    text-align:center;
+}
+.i:hover{
+    cursor: pointer;
+    height: 120px; 
+    width: 130px; 
+    transition: 0.2s ease;
+}
+
+
+}
